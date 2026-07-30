@@ -5,7 +5,7 @@ int main(){
     out("This is the out command in zlio.h library\n");
     InputValue input = in("Type something... ");
     if (input.type == INPUTINT){
-        out("Interger");
+        out("Integer");
     }
     else if (input.type == INPUTBOOL){
         out("Bool/Boolean");
